@@ -1,0 +1,21 @@
+{
+  "name": "Avery Ivey",
+  "short_name": "Avery Ivey",
+  "description": "Official Music Site",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#120C06",
+  "theme_color": "#D4A84B",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/SteveP999/Hello-Texas-Records/main/avery-ivey-logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/SteveP999/Hello-Texas-Records/main/avery-ivey-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

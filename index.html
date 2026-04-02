@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avery Ivey — Official Music</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --warm-bg:    #120C06;
+  --warm-gold:  #D4A84B;
+  --warm-amber: #C8702A;
+  --warm-cream: #F2E8D0;
+  --warm-muted: #8A7055;
+  --dark-bg:    #07080E;
+  --dark-red:   #C41A1A;
+  --dark-steel: #8899BB;
+  --dark-white: #E2EAF4;
+  --font-script:'Cinzel Decorative', serif;
+  --font-body:  'Cormorant Garamond', serif;
+  --font-tech:  'Rajdhani', sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:#0D0906;color:var(--warm-cream);font-family:var(--font-body);font-size:17px;line-height:1.75;overflow-x:hidden;}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:0.025;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:180px;}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1rem 2.5rem;background:linear-gradient(to bottom,rgba(13,9,6,0.97),transparent);}
+nav.scrolled{background:rgba(13,9,6,0.98);border-bottom:1px solid rgba(212,168,75,0.12);}
+.nav-name{font-family:var(--font-script);font-size:0.85rem;color:var(--warm-gold);letter-spacing:0.08em;text-decoration:none;}
+.nav-links{display:flex;gap:1.8rem;list-style:none;}
+.nav-links a{font-family:var(--font-tech);font-size:0.65rem;letter-spacing:0.25em;text-transform:uppercase;color:rgba(242,232,208,0.5);text-decoration:none;transition:color 0.2s;}
+.nav-links a:hover{color:var(--warm-gold);}
+
+/* HERO */
+.hero{position:relative;height:100vh;min-height:600px;display:flex;overflow:hidden;}
+.hero-half{flex:1;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding-bottom:5rem;overflow:hidden;transition:flex 0.4s ease;}
+.hero-half:hover{flex:1.08;}
+.hero-half-country{background:linear-gradient(160deg,#2C1A07 0%,#180D03 100%);}
+.hero-half-rock{background:linear-gradient(200deg,#0C0A14 0%,#050408 100%);}
+.hero-half-country::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 35% 65%,rgba(200,112,42,0.18) 0%,transparent 65%);pointer-events:none;}
+.hero-half-rock::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 65% 65%,rgba(160,18,18,0.16) 0%,transparent 65%);pointer-events:none;}
+.hero-divider{position:absolute;left:50%;top:0;bottom:0;width:1px;background:linear-gradient(to bottom,transparent 0%,rgba(212,168,75,0.5) 25%,rgba(212,168,75,0.5) 75%,transparent 100%);transform:translateX(-50%);z-index:10;}
+.hero-divider-badge{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:var(--font-script);font-size:0.55rem;letter-spacing:0.25em;color:var(--warm-gold);background:#0D0906;padding:0.7rem 1.1rem;white-space:nowrap;border:1px solid rgba(212,168,75,0.3);z-index:11;}
+.hero-album{width:200px;height:200px;margin-bottom:1.8rem;box-shadow:0 20px 60px rgba(0,0,0,0.7);animation:fadeup 1s 0.3s both;}
+.hero-half-country .hero-album{box-shadow:0 20px 50px rgba(200,112,42,0.25),0 4px 20px rgba(0,0,0,0.8);}
+.hero-half-rock    .hero-album{box-shadow:0 20px 50px rgba(180,20,20,0.25),0 4px 20px rgba(0,0,0,0.8);}
+.hero-album img{width:100%;height:100%;object-fit:cover;}
+.hero-genre{font-family:var(--font-tech);font-size:0.6rem;letter-spacing:0.3em;text-transform:uppercase;margin-bottom:0.3rem;animation:fadeup 1s 0.5s both;}
+.hero-half-country .hero-genre{color:var(--warm-amber);}
+.hero-half-rock    .hero-genre{color:var(--dark-red);}
+.hero-title{font-family:var(--font-body);font-size:1.3rem;font-weight:600;text-align:center;padding:0 1.5rem;margin-bottom:1rem;animation:fadeup 1s 0.6s both;}
+.hero-cta{font-family:var(--font-tech);font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;padding:0.45rem 1.3rem;border:1px solid;text-decoration:none;transition:all 0.2s;animation:fadeup 1s 0.8s both;}
+.hero-half-country .hero-cta{color:var(--warm-gold);border-color:rgba(212,168,75,0.35);}
+.hero-half-country .hero-cta:hover{background:rgba(212,168,75,0.1);border-color:var(--warm-gold);}
+.hero-half-rock .hero-cta{color:#E07070;border-color:rgba(180,40,40,0.4);}
+.hero-half-rock .hero-cta:hover{background:rgba(180,40,40,0.1);border-color:#C04040;}
+@keyframes fadeup{from{opacity:0;transform:translateY(18px);}to{opacity:1;transform:translateY(0);}}
+
+/* BIO */
+#bio{padding:5.5rem 0;background:#0D0906;border-top:1px solid rgba(212,168,75,0.08);}
+.bio-inner{max-width:720px;margin:0 auto;padding:0 2rem;text-align:center;}
+.eyebrow{font-family:var(--font-tech);font-size:0.62rem;letter-spacing:0.4em;text-transform:uppercase;color:var(--warm-gold);margin-bottom:1.2rem;display:flex;align-items:center;justify-content:center;gap:1rem;}
+.eyebrow::before,.eyebrow::after{content:'';width:50px;height:1px;background:linear-gradient(to right,transparent,rgba(212,168,75,0.45));}
+.eyebrow::after{background:linear-gradient(to left,transparent,rgba(212,168,75,0.45));}
+.bio-text{font-size:1.1rem;line-height:1.95;color:rgba(242,232,208,0.7);font-style:italic;}
+.bio-text .hi{color:var(--warm-gold);font-style:normal;font-weight:600;}
+
+/* ALBUM SECTIONS */
+.album-section{padding:5rem 0;border-top:1px solid rgba(40,28,16,0.9);}
+.album-section.rock{background:#080A0F;border-top-color:rgba(20,24,36,0.9);}
+.album-section.country{background:#0D0906;}
+.album-wrap{max-width:1060px;margin:0 auto;padding:0 2rem;}
+.album-layout{display:grid;grid-template-columns:260px 1fr;gap:3rem;align-items:start;}
+.album-art{position:sticky;top:90px;}
+.album-art img{width:100%;aspect-ratio:1;object-fit:cover;}
+.country .album-art img{box-shadow:0 16px 50px rgba(200,112,42,0.18),0 4px 20px rgba(0,0,0,0.7);}
+.rock    .album-art img{box-shadow:0 16px 50px rgba(180,20,20,0.18),0 4px 20px rgba(0,0,0,0.7);}
+.album-info{}
+.album-tag{font-family:var(--font-tech);font-size:0.58rem;letter-spacing:0.3em;text-transform:uppercase;margin-bottom:0.4rem;}
+.country .album-tag{color:var(--warm-amber);}
+.rock    .album-tag{color:#B03030;}
+.album-title-text{font-family:var(--font-body);font-weight:600;font-size:2rem;line-height:1.15;margin-bottom:0.25rem;}
+.country .album-title-text{color:var(--warm-cream);}
+.rock    .album-title-text{color:var(--dark-white);}
+.album-year-txt{font-family:var(--font-tech);font-size:0.7rem;letter-spacing:0.15em;color:var(--warm-muted);margin-bottom:1rem;}
+.album-description{font-size:0.98rem;color:rgba(242,232,208,0.55);line-height:1.8;margin-bottom:1.3rem;max-width:480px;}
+.stream-row{display:flex;gap:0.6rem;flex-wrap:wrap;margin-bottom:0.5rem;}
+.stream-btn{font-family:var(--font-tech);font-size:0.58rem;letter-spacing:0.15em;text-transform:uppercase;padding:0.38rem 0.9rem;border:1px solid;text-decoration:none;transition:all 0.2s;background:none;cursor:pointer;}
+.country .stream-btn{color:var(--warm-gold);border-color:rgba(212,168,75,0.3);}
+.country .stream-btn:hover{background:rgba(212,168,75,0.09);border-color:var(--warm-gold);}
+.rock    .stream-btn{color:var(--dark-steel);border-color:rgba(136,153,187,0.3);}
+.rock    .stream-btn:hover{background:rgba(136,153,187,0.09);border-color:var(--dark-steel);}
+.wip-badge{display:inline-flex;align-items:center;gap:0.4rem;font-family:var(--font-tech);font-size:0.55rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--warm-amber);border:1px solid rgba(200,112,42,0.3);padding:0.22rem 0.7rem;margin-bottom:0.8rem;}
+.wip-badge::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--warm-amber);animation:blink 1.4s ease infinite;}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:0.25;}}
+
+/* TRACKLIST */
+.tracklist{border-top:1px solid rgba(80,60,35,0.35);padding-top:0.5rem;margin-top:1.5rem;}
+.rock .tracklist{border-top-color:rgba(35,45,65,0.5);}
+.track-row{display:grid;grid-template-columns:36px 40px 1fr 36px;align-items:center;gap:0.7rem;padding:0.55rem 0.4rem;border-bottom:1px solid rgba(80,60,35,0.18);border-radius:3px;transition:background 0.15s;}
+.rock .track-row{border-bottom-color:rgba(35,45,65,0.25);}
+.track-row:hover{background:rgba(212,168,75,0.04);}
+.rock .track-row:hover{background:rgba(136,153,187,0.04);}
+.track-num{font-family:var(--font-tech);font-size:0.62rem;text-align:right;}
+.country .track-num{color:rgba(212,168,75,0.38);}
+.rock    .track-num{color:rgba(136,153,187,0.32);}
+.track-thumb{width:40px;height:40px;object-fit:cover;opacity:0.82;}
+.track-title{font-family:var(--font-body);font-size:1rem;}
+.country .track-title{color:var(--warm-cream);}
+.rock    .track-title{color:var(--dark-white);}
+.track-play-btn{width:32px;height:32px;border-radius:50%;border:1px solid;background:none;cursor:pointer;font-size:0.55rem;padding-left:2px;transition:all 0.18s;display:flex;align-items:center;justify-content:center;}
+.country .track-play-btn{color:var(--warm-gold);border-color:rgba(212,168,75,0.32);}
+.country .track-play-btn:hover{background:rgba(212,168,75,0.14);border-color:var(--warm-gold);}
+.country .track-play-btn.playing{background:var(--warm-gold);color:#0D0906;border-color:var(--warm-gold);}
+.rock    .track-play-btn{color:#C06060;border-color:rgba(180,40,40,0.32);}
+.rock    .track-play-btn:hover{background:rgba(180,40,40,0.14);border-color:#C04040;}
+.rock    .track-play-btn.playing{background:#C04040;color:#080A0F;border-color:#C04040;}
+
+/* PLAYER */
+#player{position:fixed;bottom:0;left:0;right:0;z-index:200;background:rgba(8,6,4,0.97);border-top:1px solid rgba(212,168,75,0.18);backdrop-filter:blur(14px);display:none;grid-template-columns:240px 1fr 180px;align-items:center;gap:1.5rem;padding:0.75rem 2rem;transform:translateY(100%);transition:transform 0.3s cubic-bezier(0.16,1,0.3,1);}
+#player.visible{display:grid;transform:translateY(0);}
+.p-info{display:flex;flex-direction:column;gap:0.1rem;min-width:0;}
+.p-title{font-family:var(--font-body);font-size:0.95rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--warm-cream);}
+.p-album{font-family:var(--font-tech);font-size:0.52rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--warm-gold);opacity:0.55;}
+.p-controls{display:flex;flex-direction:column;align-items:center;gap:0.35rem;}
+.p-btns{display:flex;align-items:center;gap:0.9rem;}
+.p-btn{background:none;border:none;color:rgba(242,232,208,0.45);cursor:pointer;font-size:0.7rem;transition:color 0.15s;padding:0.15rem;}
+.p-btn:hover{color:var(--warm-cream);}
+.p-play{width:36px;height:36px;border-radius:50%;background:var(--warm-gold);border:none;color:#0D0906;cursor:pointer;font-size:0.85rem;display:flex;align-items:center;justify-content:center;transition:transform 0.15s;padding-left:2px;}
+.p-play:hover{transform:scale(1.1);}
+.p-prog{display:flex;align-items:center;gap:0.5rem;width:100%;}
+.p-time{font-family:var(--font-tech);font-size:0.52rem;color:rgba(242,232,208,0.3);min-width:26px;text-align:center;}
+.p-bar{flex:1;height:2px;background:rgba(242,232,208,0.1);border-radius:1px;cursor:pointer;position:relative;}
+.p-fill{height:100%;background:linear-gradient(to right,var(--warm-amber),var(--warm-gold));border-radius:1px;width:0%;pointer-events:none;}
+.p-right{display:flex;align-items:center;gap:0.75rem;justify-content:flex-end;}
+.p-vol{-webkit-appearance:none;width:75px;height:2px;background:rgba(242,232,208,0.12);outline:none;cursor:pointer;}
+.p-vol::-webkit-slider-thumb{-webkit-appearance:none;width:10px;height:10px;border-radius:50%;background:var(--warm-gold);cursor:pointer;}
+.p-close{background:none;border:none;color:rgba(242,232,208,0.22);cursor:pointer;font-size:0.7rem;transition:color 0.2s;}
+.p-close:hover{color:rgba(242,232,208,0.55);}
+
+/* WILDFLOWER LINKS */
+#wildflower-links{padding:4rem 0 3rem;background:#07040A;border-top:1px solid rgba(212,168,75,0.06);}
+.wf-links-inner{max-width:720px;margin:0 auto;padding:0 2rem;text-align:center;}
+.wf-links-eyebrow{font-family:var(--font-tech);font-size:0.62rem;letter-spacing:0.4em;text-transform:uppercase;color:var(--warm-gold);margin-bottom:0.5rem;display:flex;align-items:center;justify-content:center;gap:1rem;}
+.wf-links-eyebrow::before,.wf-links-eyebrow::after{content:'';width:50px;height:1px;background:linear-gradient(to right,transparent,rgba(212,168,75,0.35));}
+.wf-links-eyebrow::after{background:linear-gradient(to left,transparent,rgba(212,168,75,0.35));}
+.wf-links-sub{font-family:var(--font-body);font-size:1rem;font-style:italic;color:rgba(242,232,208,0.4);margin-bottom:2.2rem;letter-spacing:0.03em;}
+.wf-btn-row{display:flex;gap:1.2rem;justify-content:center;flex-wrap:wrap;}
+.wf-btn{font-family:var(--font-tech);font-size:0.62rem;letter-spacing:0.22em;text-transform:uppercase;padding:0.7rem 2rem;border:1px solid;text-decoration:none;transition:all 0.22s;display:inline-flex;align-items:center;gap:0.55rem;}
+.wf-btn-movie{color:var(--warm-gold);border-color:rgba(212,168,75,0.4);background:none;}
+.wf-btn-movie:hover{background:rgba(212,168,75,0.09);border-color:var(--warm-gold);}
+.wf-btn-series{color:#B8A0D8;border-color:rgba(160,120,200,0.35);background:none;}
+.wf-btn-series:hover{background:rgba(160,120,200,0.09);border-color:#B8A0D8;}
+.wf-btn svg{width:11px;height:11px;fill:currentColor;opacity:0.7;}
+
+/* FOOTER */
+footer{background:#07050A;border-top:1px solid rgba(40,30,18,0.8);padding:3rem 2rem;text-align:center;margin-bottom:60px;}
+.foot-name{font-family:var(--font-script);font-size:1.15rem;color:var(--warm-gold);margin-bottom:0.4rem;}
+.foot-label{font-family:var(--font-tech);font-size:0.58rem;letter-spacing:0.35em;text-transform:uppercase;color:rgba(212,168,75,0.38);margin-bottom:1.4rem;}
+.foot-links{display:flex;gap:1.5rem;justify-content:center;}
+.foot-links a{font-family:var(--font-tech);font-size:0.58rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(212,168,75,0.38);text-decoration:none;transition:color 0.2s;}
+.foot-links a:hover{color:var(--warm-gold);}
+
+@media(max-width:768px){
+  .album-layout{grid-template-columns:1fr;}
+  .album-art{position:static;max-width:220px;}
+  #player{grid-template-columns:1fr;gap:0.4rem;padding:0.6rem 1rem;}
+  .p-right{justify-content:center;}
+  .nav-links{gap:1rem;}
+  .hero-divider-badge{font-size:0.45rem;padding:0.5rem 0.7rem;}
+  .track-row{grid-template-columns:28px 36px 1fr 34px;gap:0.5rem;}
+}
+
+/* GALLERY */
+#photos { padding: 5rem 0; background: #0A0806; border-top: 1px solid rgba(212,168,75,0.08); }
+.gallery-wrap { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+.gallery-eyebrow { font-family: var(--font-tech); font-size: 0.62rem; letter-spacing: 0.4em; text-transform: uppercase; color: var(--warm-gold); margin-bottom: 2rem; display: flex; align-items: center; gap: 1rem; }
+.gallery-eyebrow::before, .gallery-eyebrow::after { content: ''; flex: 1; height: 1px; background: linear-gradient(to right, rgba(212,168,75,0.35), transparent); }
+.gallery-eyebrow::after { background: linear-gradient(to left, rgba(212,168,75,0.35), transparent); }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 280px;
+  gap: 6px;
+}
+.gallery-item { overflow: hidden; position: relative; }
+.gallery-item:nth-child(1) { grid-row: span 2; }  /* tall: leather jacket */
+.gallery-item:nth-child(6) { grid-row: span 2; }  /* tall: moody stage */
+.gallery-item img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.5s ease, filter 0.5s ease;
+  filter: brightness(0.88) saturate(0.9);
+}
+.gallery-item:hover img { transform: scale(1.04); filter: brightness(1) saturate(1.05); }
+@media (max-width: 768px) {
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 200px; }
+  .gallery-item:nth-child(1), .gallery-item:nth-child(6) { grid-row: span 1; }
+}
+
+</style>
+  <link rel="manifest" href="manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Avery Ivey">
+  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/SteveP999/Hello-Texas-Records/main/avery-ivey-logo.jpg">
+  <meta name="theme-color" content="#D4A84B">
+</head>
+<body>
+
+<nav id="topnav">
+  <a href="#" class="nav-name">Avery Ivey</a>
+  <ul class="nav-links">
+    <li><a href="#bio">About</a></li>
+    <li><a href="#sptf">Country</a></li>
+    <li><a href="#fht">Rock</a></li>
+    <li><a href="#sitm">New Music</a></li>
+    <li><a href="#wf">Wildflower</a></li>
+    <li><a href="#photos">Photos</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-half hero-half-country">
+    <div class="hero-album"><img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="A Soft Place to Fall"></div>
+    <div class="hero-genre">Country · Folk · Americana</div>
+    <div class="hero-title">A Soft Place to Fall...</div>
+    <a href="#sptf" class="hero-cta">Explore</a>
+  </div>
+  <div class="hero-divider">
+    <div class="hero-divider-badge">Avery Ivey</div>
+  </div>
+  <div class="hero-half hero-half-rock">
+    <div class="hero-album"><img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-cover.png" alt="For Hard Truths"></div>
+    <div class="hero-genre">Alt-Rock · Dark Pop · Edge</div>
+    <div class="hero-title">...For Hard Truths</div>
+    <a href="#fht" class="hero-cta">Explore</a>
+  </div>
+</section>
+
+<!-- BIO -->
+<section id="bio">
+  <div class="bio-inner">
+    <div class="eyebrow">About</div>
+    <p class="bio-text">
+      Avery Ivey is a <span class="hi">Texas-born singer-songwriter</span> who refuses to pick a side. Her music lives in the space between warm country backroads and electric alt-rock nights — sometimes in the same song.
+      <br><br>
+      With four albums spanning country folk, alt-rock, and the original score for the motion picture <em>Wildflower</em>, Avery has built a catalog that moves between golden hour and midnight without apology.
+    </p>
+  </div>
+</section>
+
+<!-- A SOFT PLACE TO FALL -->
+<section id="sptf" class="album-section country">
+  <div class="album-wrap">
+    <div class="album-layout">
+      <div class="album-art">
+        <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="A Soft Place to Fall">
+      </div>
+      <div class="album-info">
+        <div class="album-tag">Country · Folk · Americana</div>
+        <div class="album-title-text">A Soft Place to Fall...</div>
+        <div class="album-year-txt">Avery Ivey</div>
+        <p class="album-description">The country side of Avery. Twelve songs about coming home, leaving home, and the people you carry with you either way.</p>
+        <div class="stream-row">
+          <a href="#" class="stream-btn">&#9654; Spotify</a>
+          <a href="#" class="stream-btn">&#9834; Apple Music</a>
+        </div>
+        <div class="tracklist">
+    <div class="track-row">
+      <span class="track-num">01</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="Back to Chapter One" class="track-thumb">
+      <span class="track-title">Back to Chapter One</span>
+      <button class="track-play-btn" onclick="playTrack('sptf_1')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">02</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="Sunday Morning Coffee" class="track-thumb">
+      <span class="track-title">Sunday Morning Coffee</span>
+      <button class="track-play-btn" onclick="playTrack('sptf_2')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">03</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="Wildflower" class="track-thumb">
+      <span class="track-title">Wildflower</span>
+      <button class="track-play-btn" onclick="playTrack('sptf_3')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">04</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="Dreams I Packed Away" class="track-thumb">
+      <span class="track-title">Dreams I Packed Away</span>
+      <button class="track-play-btn" onclick="playTrack('sptf_4')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">05</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="Always the Almost" class="track-thumb">
+      <span class="track-title">Always the Almost</span>
+      <button class="track-play-btn" onclick="playTrack('sptf_5')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">06</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="The Long Way Home" class="track-thumb">
+      <span class="track-title">The Long Way Home</span>
+      <button class="track-play-btn" onclick="playTrack('sptf_6')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">07</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="Backroads After Rain" class="track-thumb">
+      <span class="track-title">Backroads After Rain</span>
+      <button class="track-play-btn" onclick="playTrack('sptf_7')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">08</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="Text from God" class="track-thumb">
+      <span class="track-title">Text from God</span>
+      <button class="track-play-btn" onclick="playTrack('sptf_8')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">09</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="Lookin' Okay" class="track-thumb">
+      <span class="track-title">Lookin' Okay</span>
+      <button class="track-play-btn" onclick="playTrack('sptf_9')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">10</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="Two Cups" class="track-thumb">
+      <span class="track-title">Two Cups</span>
+      <button class="track-play-btn" onclick="playTrack('sptf_10')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">11</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-cover.png" alt="I Still Save It" class="track-thumb">
+      <span class="track-title">I Still Save It</span>
+      <button class="track-play-btn" onclick="playTrack('sptf_11')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">12</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sptf-12.png" alt="A Soft Place to Fall" class="track-thumb">
+      <span class="track-title">A Soft Place to Fall</span>
+      <button class="track-play-btn" onclick="playTrack('sptf_12')">&#9654;</button>
+    </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOR HARD TRUTHS -->
+<section id="fht" class="album-section rock">
+  <div class="album-wrap">
+    <div class="album-layout">
+      <div class="album-art">
+        <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-cover.png" alt="...For Hard Truths">
+      </div>
+      <div class="album-info">
+        <div class="album-tag">Alt-Rock · Dark Pop · Edge</div>
+        <div class="album-title-text">...For Hard Truths</div>
+        <div class="album-year-txt">Avery Ivey</div>
+        <p class="album-description">The other side of Avery. Sixteen songs about the version of yourself you stop pretending you aren't. Louder. Darker. More honest.</p>
+        <div class="stream-row">
+          <a href="#" class="stream-btn">&#9654; Spotify</a>
+          <a href="#" class="stream-btn">&#9834; Apple Music</a>
+        </div>
+        <div class="tracklist">
+    <div class="track-row">
+      <span class="track-num">01</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-01.png" alt="Main Character" class="track-thumb">
+      <span class="track-title">Main Character</span>
+      <button class="track-play-btn" onclick="playTrack('fht_1')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">02</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-02.png" alt="Lookin' Okay" class="track-thumb">
+      <span class="track-title">Lookin' Okay</span>
+      <button class="track-play-btn" onclick="playTrack('fht_2')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">03</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-03.png" alt="People Pleaser (Rest in Peace)" class="track-thumb">
+      <span class="track-title">People Pleaser (Rest in Peace)</span>
+      <button class="track-play-btn" onclick="playTrack('fht_3')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">04</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-04.png" alt="Chaos Comfort" class="track-thumb">
+      <span class="track-title">Chaos Comfort</span>
+      <button class="track-play-btn" onclick="playTrack('fht_4')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">05</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-05.png" alt="Same Damn Thing" class="track-thumb">
+      <span class="track-title">Same Damn Thing</span>
+      <button class="track-play-btn" onclick="playTrack('fht_5')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">06</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-06.png" alt="Always the Almost" class="track-thumb">
+      <span class="track-title">Always the Almost</span>
+      <button class="track-play-btn" onclick="playTrack('fht_6')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">07</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-07.png" alt="Burning Bridges" class="track-thumb">
+      <span class="track-title">Burning Bridges</span>
+      <button class="track-play-btn" onclick="playTrack('fht_7')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">08</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-08.png" alt="Glass Houses" class="track-thumb">
+      <span class="track-title">Glass Houses</span>
+      <button class="track-play-btn" onclick="playTrack('fht_8')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">09</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-09.png" alt="Static" class="track-thumb">
+      <span class="track-title">Static</span>
+      <button class="track-play-btn" onclick="playTrack('fht_9')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">10</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-10.png" alt="The Long Way Down" class="track-thumb">
+      <span class="track-title">The Long Way Down</span>
+      <button class="track-play-btn" onclick="playTrack('fht_10')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">11</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-11.png" alt="Can't Take It Back" class="track-thumb">
+      <span class="track-title">Can't Take It Back</span>
+      <button class="track-play-btn" onclick="playTrack('fht_11')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">12</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-12.png" alt="Almost Apologies" class="track-thumb">
+      <span class="track-title">Almost Apologies</span>
+      <button class="track-play-btn" onclick="playTrack('fht_12')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">13</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-13.png" alt="I'm the Problem" class="track-thumb">
+      <span class="track-title">I'm the Problem</span>
+      <button class="track-play-btn" onclick="playTrack('fht_13')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">14</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-14.png" alt="One More Bad Decision" class="track-thumb">
+      <span class="track-title">One More Bad Decision</span>
+      <button class="track-play-btn" onclick="playTrack('fht_14')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">15</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-15.png" alt="Nobody Asked Me" class="track-thumb">
+      <span class="track-title">Nobody Asked Me</span>
+      <button class="track-play-btn" onclick="playTrack('fht_15')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">16</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-fht-16.png" alt="Hard Truths" class="track-thumb">
+      <span class="track-title">Hard Truths</span>
+      <button class="track-play-btn" onclick="playTrack('fht_16')">&#9654;</button>
+    </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOMEWHERE IN THE MIDDLE -->
+<section id="sitm" class="album-section country">
+  <div class="album-wrap">
+    <div class="album-layout">
+      <div class="album-art">
+        <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sitm-cover.png" alt="Somewhere in the Middle">
+      </div>
+      <div class="album-info">
+        <div class="wip-badge">In Progress</div>
+        <div class="album-tag">Country · Alt-Rock · New Music</div>
+        <div class="album-title-text">Somewhere in the Middle</div>
+        <div class="album-year-txt">Avery Ivey — Writing Now</div>
+        <p class="album-description">The third album. Neither side. Both sides. Songs being written in real time — added as they're finished.</p>
+        <div class="stream-row">
+          <a href="#" class="stream-btn">&#9654; Spotify</a>
+          <a href="#" class="stream-btn">&#9834; Apple Music</a>
+        </div>
+        <div class="tracklist">
+    <div class="track-row">
+      <span class="track-num">01</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sitm-01.png" alt="Somewhere in the Middle" class="track-thumb">
+      <span class="track-title">Somewhere in the Middle</span>
+      <button class="track-play-btn" onclick="playTrack('sitm_1')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">02</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sitm-02.png" alt="Burn It Down" class="track-thumb">
+      <span class="track-title">Burn It Down</span>
+      <button class="track-play-btn" onclick="playTrack('sitm_2')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">03</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-sitm-03.png" alt="Removing the Rear View" class="track-thumb">
+      <span class="track-title">Removing the Rear View</span>
+      <button class="track-play-btn" onclick="playTrack('sitm_3')">&#9654;</button>
+    </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WILDFLOWER SOUNDTRACK -->
+<section id="wf" class="album-section rock">
+  <div class="album-wrap">
+    <div class="album-layout">
+      <div class="album-art">
+        <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="Wildflower Soundtrack">
+      </div>
+      <div class="album-info">
+        <div class="album-tag">Original Motion Picture Soundtrack</div>
+        <div class="album-title-text">Wildflower</div>
+        <div class="album-year-txt">Music from the Motion Picture</div>
+        <p class="album-description">The complete original score and soundtrack from <em>Wildflower</em>. Twelve songs written for the film — from county fair stages to Nashville breakdowns to the long way back to herself.</p>
+        <div class="stream-row">
+          <a href="#" class="stream-btn">&#9654; Spotify</a>
+          <a href="#" class="stream-btn">&#9834; Apple Music</a>
+          <a href="https://stevep999.github.io/Wildflower-Movie/" target="_blank" class="stream-btn">&#127916; Film Site</a>
+        </div>
+        <div class="tracklist">
+    <div class="track-row">
+      <span class="track-num">01</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="Wildflower" class="track-thumb">
+      <span class="track-title">Wildflower</span>
+      <button class="track-play-btn" onclick="playTrack('wf_1')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">02</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="Tonight It Belongs to Me" class="track-thumb">
+      <span class="track-title">Tonight It Belongs to Me</span>
+      <button class="track-play-btn" onclick="playTrack('wf_2')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">03</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="Dreams I Packed Away" class="track-thumb">
+      <span class="track-title">Dreams I Packed Away</span>
+      <button class="track-play-btn" onclick="playTrack('wf_3')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">04</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="Brand New Me" class="track-thumb">
+      <span class="track-title">Brand New Me</span>
+      <button class="track-play-btn" onclick="playTrack('wf_4')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">05</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="Lookin' OK" class="track-thumb">
+      <span class="track-title">Lookin' OK</span>
+      <button class="track-play-btn" onclick="playTrack('wf_5')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">06</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="Almost Loved You" class="track-thumb">
+      <span class="track-title">Almost Loved You</span>
+      <button class="track-play-btn" onclick="playTrack('wf_6')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">07</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="Loud Enough" class="track-thumb">
+      <span class="track-title">Loud Enough</span>
+      <button class="track-play-btn" onclick="playTrack('wf_7')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">08</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="A Soft Place to Fall" class="track-thumb">
+      <span class="track-title">A Soft Place to Fall</span>
+      <button class="track-play-btn" onclick="playTrack('wf_8')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">09</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="The Long Way Down" class="track-thumb">
+      <span class="track-title">The Long Way Down</span>
+      <button class="track-play-btn" onclick="playTrack('wf_9')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">10</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="Somewhere in the Middle" class="track-thumb">
+      <span class="track-title">Somewhere in the Middle</span>
+      <button class="track-play-btn" onclick="playTrack('wf_10')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">11</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="Wildflower (Acoustic)" class="track-thumb">
+      <span class="track-title">Wildflower (Acoustic)</span>
+      <button class="track-play-btn" onclick="playTrack('wf_11')">&#9654;</button>
+    </div>
+    <div class="track-row">
+      <span class="track-num">12</span>
+      <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-wf-cover.png" alt="Hard Truths" class="track-thumb">
+      <span class="track-title">Hard Truths</span>
+      <button class="track-play-btn" onclick="playTrack('wf_12')">&#9654;</button>
+    </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- PHOTOS -->
+<section id="photos">
+  <div class="gallery-wrap">
+    <div class="gallery-eyebrow">Photos</div>
+    <div class="gallery-grid">
+<div class="gallery-item"><img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-01.png" alt="Avery Ivey" loading="lazy"></div>
+<div class="gallery-item"><img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-02.png" alt="Avery Ivey" loading="lazy"></div>
+<div class="gallery-item"><img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-03.png" alt="Avery Ivey" loading="lazy"></div>
+<div class="gallery-item"><img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-04.png" alt="Avery Ivey" loading="lazy"></div>
+<div class="gallery-item"><img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-05.png" alt="Avery Ivey" loading="lazy"></div>
+<div class="gallery-item"><img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-06.png" alt="Avery Ivey" loading="lazy"></div>
+<div class="gallery-item"><img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-07.png" alt="Avery Ivey" loading="lazy"></div>
+<div class="gallery-item"><img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-08.png" alt="Avery Ivey" loading="lazy"></div>
+<div class="gallery-item"><img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-09.png" alt="Avery Ivey" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<!-- WILDFLOWER LINKS -->
+<section id="wildflower-links">
+  <div class="wf-links-inner">
+    <div class="wf-links-eyebrow">Wildflower</div>
+    <p class="wf-links-sub">The film. The series. The whole story.</p>
+    <div class="wf-btn-row">
+      <a href="https://stevep999.github.io/Wildflower-Movie/" class="wf-btn wf-btn-movie" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-8 12.5v-7l5.5 3.5-5.5 3.5z"/></svg>
+        Wildflower — The Movie
+      </a>
+      <a href="https://stevep999.github.io/Wildflower-Series/" class="wf-btn wf-btn-series" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/></svg>
+        Wildflower — The Series
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-name">Avery Ivey</div>
+  <div class="foot-label">Hello Texas Records</div>
+  <div class="foot-links">
+    <a href="#">Spotify</a>
+    <a href="#">Apple Music</a>
+    <a href="#">YouTube</a>
+    <a href="#">Instagram</a>
+  </div>
+</footer>
+
+<!-- AUDIO -->
+<audio id="audio" playsinline preload="none"></audio>
+
+<div id="player">
+  <div class="p-info">
+    <div class="p-title" id="p-title">—</div>
+    <div class="p-album" id="p-album">Avery Ivey</div>
+  </div>
+  <div class="p-controls">
+    <div class="p-btns">
+      <button class="p-btn" id="p-prev">&#9664;&#9664;</button>
+      <button class="p-play" id="p-playbtn">&#9654;</button>
+      <button class="p-btn" id="p-next">&#9654;&#9654;</button>
+    </div>
+    <div class="p-prog">
+      <span class="p-time" id="p-cur">0:00</span>
+      <div class="p-bar" id="p-bar"><div class="p-fill" id="p-fill"></div></div>
+      <span class="p-time" id="p-dur">0:00</span>
+    </div>
+  </div>
+  <div class="p-right">
+    <input type="range" class="p-vol" id="p-vol" min="0" max="1" step="0.02" value="0.85">
+    <button class="p-close" id="p-close">&#10005;</button>
+  </div>
+</div>
+
+<script>
+const TRACKS = {
+  "sptf_1": { title: "Back to Chapter One", album: "A Soft Place to Fall...", src: "https://www.dropbox.com/scl/fi/jk6614ondo7f9wwziqmf0/Back-to-Chapter-One-Mastered-MP3.mp3?rlkey=zqopgnh98kuqwpuc6flntzf2z&raw=1" },
+  "sptf_2": { title: "Sunday Morning Coffee", album: "A Soft Place to Fall...", src: "https://www.dropbox.com/scl/fi/6yy1arbzeclnvizbllu83/Sunday-Morning-Coffee-MASTERED-MP3.mp3?rlkey=4re3g6c23ixpxws6ywspuzi80&raw=1" },
+  "sptf_3": { title: "Wildflower", album: "A Soft Place to Fall...", src: "https://www.dropbox.com/scl/fi/4cv8cbapu5lsqirgy4qen/Avery-Ivey-Wildflower-Mastered-MP3.mp3?rlkey=wskilk8augraewdddd7p9hhby&raw=1" },
+  "sptf_4": { title: "Dreams I Packed Away", album: "A Soft Place to Fall...", src: "https://www.dropbox.com/scl/fi/lcv7smnx2bljmvjxkf1ea/Dreams-I-Packed-Away-Mastered-MP3.mp3?rlkey=s5pljbkl9q7x8uz22ysek1xta&raw=1" },
+  "sptf_5": { title: "Always the Almost", album: "A Soft Place to Fall...", src: "https://www.dropbox.com/scl/fi/wucmadfxsp7c4i46qp767/Avery-Ivey-Always-the-Almost-Country-Unreleased-MP3.mp3?rlkey=nwwa3bhbvhx2exwu5dzj0n9rd&raw=1" },
+  "sptf_6": { title: "The Long Way Home", album: "A Soft Place to Fall...", src: "https://www.dropbox.com/scl/fi/z8279720lqdqvvm5a4ft0/The-Long-Way-Home-Mastered-MP3.mp3?rlkey=8zu4csh116hxls9tvj15vixel&raw=1" },
+  "sptf_7": { title: "Backroads After Rain", album: "A Soft Place to Fall...", src: "https://www.dropbox.com/scl/fi/inkygtk375ok8gflb4fsr/Backroads-After-Rain-Mastered-MP3.mp3?rlkey=2w7ub4g23co3z1a125ghx5pzh&raw=1" },
+  "sptf_8": { title: "Text from God", album: "A Soft Place to Fall...", src: "https://www.dropbox.com/scl/fi/rbq49kx031ncycvcr12hh/Avery-Ivey-Text-from-God-Master-v14.mp3?rlkey=je3m4idfyavkobyfqdr3jkfsp&raw=1" },
+  "sptf_9": { title: "Lookin' Okay", album: "A Soft Place to Fall...", src: "https://www.dropbox.com/scl/fi/frtp29pivlcuyje8qjbyc/Lookin-OK-Soft-Place-to-Fall-Version-Mastered-MP3.mp3?rlkey=9m0ajdo031flid3qc217bj9s4&raw=1" },
+  "sptf_10": { title: "Two Cups", album: "A Soft Place to Fall...", src: "https://www.dropbox.com/scl/fi/b160abr2kgvhn0ngswohf/Avery-Ivey-Two-Cups-Released-MP3.mp3?rlkey=tvq4lcxyf91sqac05jtsebm65&raw=1" },
+  "sptf_11": { title: "I Still Save It", album: "A Soft Place to Fall...", src: "https://www.dropbox.com/scl/fi/bjvd0u4ipkac7e0uqlf5e/I-Still-Save-It-Mastered-MP3.mp3?rlkey=3ttu5bl4a5g9a0h1abwe1cawx&raw=1" },
+  "sptf_12": { title: "A Soft Place to Fall", album: "A Soft Place to Fall...", src: "https://www.dropbox.com/scl/fi/e8050ni9uh9of4b5cax4d/Avery-Ivey-A-Soft-Place-to-Fall-Mastered-v2-MP3.mp3?rlkey=amnqgpp0eqzx9uwo1eaio7a8p&raw=1" },
+  "fht_1": { title: "Main Character", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/trqy5igqzyanjphnsnw6z/V1-Main-Character-Mastered-MP3.mp3?rlkey=764wvwd58t5oj3aof4gh7nzy6&raw=1" },
+  "fht_2": { title: "Lookin' Okay", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/p3txf5h16ftq7lzk9fk53/Lookin-Okay-Hard-Truths-Mastered-MP3.mp3?rlkey=gc910quszxn9zl8t6m9mjk126&raw=1" },
+  "fht_3": { title: "People Pleaser (Rest in Peace)", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/ypd63gky426s8qcb4rj9v/Avery-Ivey-People-Pleaser-v18.mp3?rlkey=hxhnjfxtg70vn4ftof38gjo2k&raw=1" },
+  "fht_4": { title: "Chaos Comfort", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/p4y5sisiioswbw8pudlcw/Chaos-Comfort-Mastered-MP3.mp3?rlkey=bdcoa5hvec50h05laqmz1k0ls&raw=1" },
+  "fht_5": { title: "Same Damn Thing", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/ux83m26fisj2byb9cej8h/Same-Damn-Thing-Mastered-MP3.mp3?rlkey=vkf9zb6k57drsyf849x1ao97r&raw=1" },
+  "fht_6": { title: "Always the Almost", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/8dgpx8wyodqbhow7rvg01/Avery-Ivey-Always-the-Almost-Alt-Rock-Released-MP3.mp3?rlkey=q76rs20bk1kcwbnvie6e7r1ox&raw=1" },
+  "fht_7": { title: "Burning Bridges", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/4lyfkgq3xq9pzez6gbom5/Avery-Ivey-Burning-Bridges-Released-MP3.mp3?rlkey=5dvzni5l5ypl9erfwh7kg7jp2&raw=1" },
+  "fht_8": { title: "Glass Houses", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/wavfoa8k3bnnhlj5mz209/Glass-Houses-Mastered-MP3.mp3?rlkey=ef9bquug79de6gqf3whvg5mxv&raw=1" },
+  "fht_9": { title: "Static", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/9l3nczjtnaqrlry78krlm/Static-MASTERED-MP3.mp3?rlkey=p3ku0xpxm0dxbhplcx7dquw58&raw=1" },
+  "fht_10": { title: "The Long Way Down", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/c06dpwu8z8ghmhripoasu/The-Long-Way-Down-Mastered-MP3.mp3?rlkey=lawjr12q40tq7nvme4lavvzd6&raw=1" },
+  "fht_11": { title: "Can't Take It Back", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/grmok2ufyr9bpfxy3bywm/Can-t-Take-it-Back-Mastered-MP3.mp3?rlkey=8m6gqj6sudac50ajr83nkejx8&raw=1" },
+  "fht_12": { title: "Almost Apologies", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/jqlfnvqyzh9s7tk25l92w/Avery-Ivey-For-Hard-Truths-12-Almost-Apologies-MASTERED-MP3.mp3?rlkey=xnci7qbntknrr3so74p5st9aa&raw=1" },
+  "fht_13": { title: "I'm the Problem", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/4l024w1zth1i8f5t1xegj/Avery-Ivey-For-Hard-Truths-13-I-m-the-Problem-Mastered-WAV.wav?rlkey=ab9feusn4ilo94zaxd8bpia7n&raw=1" },
+  "fht_14": { title: "One More Bad Decision", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/wivt8llbxpe0fgtpr4iue/One-More-Bad-Decision-Mastered-MP3.mp3?rlkey=w0ba6ohdaa52h5ydf6rhjj60q&raw=1" },
+  "fht_15": { title: "Nobody Asked Me", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/lfd6skehnor8grv0br1cd/Nobody-Asked-Me-Mastered-MP3.mp3?rlkey=x0q53u4o6dm6r8d39i4lw9l53&raw=1" },
+  "fht_16": { title: "Hard Truths", album: "...For Hard Truths", src: "https://www.dropbox.com/scl/fi/5tt2njgq6or9aofycjblt/Avery-Ivey-Hard-Truths-Mastered-MP3.mp3?rlkey=3r783tswtp7eltlziljd0ged9&raw=1" },
+  "sitm_1": { title: "Somewhere in the Middle", album: "Somewhere in the Middle", src: "https://www.dropbox.com/scl/fi/4o4bad3jn16xbga2q3gxi/Somewhere-in-the-Middle-Mastered-MP3.mp3?rlkey=2jj4fqzl3zjzdsof51n9g7ron&raw=1" },
+  "sitm_2": { title: "Burn It Down", album: "Somewhere in the Middle", src: "https://www.dropbox.com/scl/fi/88z4a3jtfmx4c3f7rv5rr/Avery-Ivey-Burn-it-Down-Master-mp3-1.mp3?rlkey=ojbbd704yy2tvuk4cvd9lm3fp&raw=1" },
+  "sitm_3": { title: "Removing the Rear View", album: "Somewhere in the Middle", src: "https://www.dropbox.com/scl/fi/973trytjzj4a9pagqo26s/Avery-Ivey-Removing-the-Rear-View-Mastered-MP3.mp3?rlkey=pfwyeany8ofxtlzm4ic0cn78n&raw=1" },
+  "wf_1": { title: "Wildflower", album: "Wildflower Soundtrack", src: "https://www.dropbox.com/scl/fi/9j5rxz2fv89abr2ucpv4y/Avery-Ivey-Wildflower-Mastered-MP3.mp3?rlkey=e0lksxoxx6zt239cxu0q8v3lc&raw=1" },
+  "wf_2": { title: "Tonight It Belongs to Me", album: "Wildflower Soundtrack", src: "https://www.dropbox.com/scl/fi/9botip4crmlf4fve5pvru/Tonight-It-Belongs-To-Me-Mixed-MP3.mp3?rlkey=ienj7okdxns7dp6qhaksxzwpf&raw=1" },
+  "wf_3": { title: "Dreams I Packed Away", album: "Wildflower Soundtrack", src: "https://www.dropbox.com/scl/fi/ju79bicum4ket5k0rsgkq/Dreams-I-Packed-Away-Mastered-MP3.mp3?rlkey=gms2iwkoor6d3rzf6flg3c0ci&raw=1" },
+  "wf_4": { title: "Brand New Me", album: "Wildflower Soundtrack", src: "https://www.dropbox.com/scl/fi/hyinbck8hrijtbj86zzga/Brand-New-Me-Mastered-MP3.mp3?rlkey=upuy0p7qx98pdbaond5sym9uj&raw=1" },
+  "wf_5": { title: "Lookin' OK", album: "Wildflower Soundtrack", src: "https://www.dropbox.com/scl/fi/g86945p26fyhdxac26g6w/Lookin-OK-Soft-Place-to-Fall-Version-Mastered-MP3.mp3?rlkey=7ijsuwcy5r2leswcobsc34ja4&raw=1" },
+  "wf_6": { title: "Almost Loved You", album: "Wildflower Soundtrack", src: "https://www.dropbox.com/scl/fi/wgb0lxd9kr2gnr3po9dsw/Avery-Ivey-06-Almost-Loved-You-Mastered-MP3.mp3?rlkey=zrebaj4ocg6afabw5zqlkplks&raw=1" },
+  "wf_7": { title: "Loud Enough", album: "Wildflower Soundtrack", src: "https://www.dropbox.com/scl/fi/cd1kc1q9kyhjhsr1ex3z9/Loud-Enough-Mastered-MP3.mp3?rlkey=edcbp3ouon92cixqklrf9g82y&raw=1" },
+  "wf_8": { title: "A Soft Place to Fall", album: "Wildflower Soundtrack", src: "https://www.dropbox.com/scl/fi/tw6trlvdbb8oczi77ziey/Avery-Ivey-A-Soft-Place-to-Fall-Mastered-v2-MP3.mp3?rlkey=m8s1bumkusomzly9bhmfr7oio&raw=1" },
+  "wf_9": { title: "The Long Way Down", album: "Wildflower Soundtrack", src: "https://www.dropbox.com/scl/fi/z5ewk3co7s3h67zyjymlw/The-Long-Way-Down-Mastered-MP3.mp3?rlkey=wfwozvsyaap4bz07t03zyj7qn&raw=1" },
+  "wf_10": { title: "Somewhere in the Middle", album: "Wildflower Soundtrack", src: "https://www.dropbox.com/scl/fi/4o4bad3jn16xbga2q3gxi/Somewhere-in-the-Middle-Mastered-MP3.mp3?rlkey=2jj4fqzl3zjzdsof51n9g7ron&raw=1" },
+  "wf_11": { title: "Wildflower (Acoustic)", album: "Wildflower Soundtrack", src: "https://www.dropbox.com/scl/fi/zbwykbmgjzx1ickgj7o2w/Wildflower-Acoustic-Mastered-MP3.mp3?rlkey=mwmukd8atrltjf08c7g7qaee9&raw=1" },
+  "wf_12": { title: "Hard Truths", album: "Wildflower Soundtrack", src: "https://www.dropbox.com/scl/fi/qfndn6l8n69hw94hg28sg/Avery-Ivey-Hard-Truths-Mastered-MP3.mp3?rlkey=j0thery46ahsz1wzv2v64su4p&raw=1" },
+};
+
+
+// Build ordered playlist per album
+const PLAYLISTS = {
+  sptf: Array.from({length:12}, (_,i) => `sptf_${i+1}`),
+  fht:  Array.from({length:16}, (_,i) => `fht_${i+1}`),
+  sitm: Array.from({length:3},  (_,i) => `sitm_${i+1}`),
+  wf:   Array.from({length:12}, (_,i) => `wf_${i+1}`),
+};
+const ALL_TRACKS = [...PLAYLISTS.sptf,...PLAYLISTS.fht,...PLAYLISTS.sitm,...PLAYLISTS.wf];
+
+let currentId = null;
+const audio = document.getElementById('audio');
+const player = document.getElementById('player');
+
+function fmt(s) {
+  if(isNaN(s)) return '0:00';
+  const m = Math.floor(s/60), sec = Math.floor(s%60);
+  return m+':'+(sec<10?'0':'')+sec;
+}
+
+function setPlaying(id, playing) {
+  document.querySelectorAll('.track-play-btn').forEach(b => {
+    const tid = b.getAttribute('onclick').match(/'([^']+)'/)?.[1];
+    b.innerHTML = (tid===id && playing) ? '&#9646;&#9646;' : '&#9654;';
+    b.classList.toggle('playing', tid===id && playing);
+  });
+  document.getElementById('p-playbtn').innerHTML = playing ? '&#9646;&#9646;' : '&#9654;';
+}
+
+function playTrack(id) {
+  const t = TRACKS[id];
+  if(!t) return;
+  if(currentId === id) {
+    if(audio.paused) { audio.play().catch(()=>{}); setPlaying(id,true); }
+    else             { audio.pause(); setPlaying(id,false); }
+    return;
+  }
+  currentId = id;
+  audio.removeAttribute('crossorigin');
+  audio.src = t.src;
+  audio.load();
+  const playPromise = audio.play();
+  if (playPromise !== undefined) {
+    playPromise.catch(() => {
+      audio.addEventListener('canplaythrough', function onCPT() {
+        audio.removeEventListener('canplaythrough', onCPT);
+        audio.play().catch(() => {});
+      });
+    });
+  }
+  document.getElementById('p-title').textContent = t.title;
+  document.getElementById('p-album').textContent = t.album;
+  player.style.display = 'grid';
+  setTimeout(()=>player.classList.add('visible'),10);
+  setPlaying(id,true);
+}
+
+audio.addEventListener('timeupdate', () => {
+  const pct = audio.duration ? (audio.currentTime/audio.duration)*100 : 0;
+  document.getElementById('p-fill').style.width = pct+'%';
+  document.getElementById('p-cur').textContent = fmt(audio.currentTime);
+  document.getElementById('p-dur').textContent = fmt(audio.duration);
+});
+
+audio.addEventListener('ended', () => {
+  const idx = ALL_TRACKS.indexOf(currentId);
+  if(idx < ALL_TRACKS.length-1) playTrack(ALL_TRACKS[idx+1]);
+  else setPlaying(currentId, false);
+});
+
+document.getElementById('p-playbtn').addEventListener('click', () => {
+  if(!currentId) return;
+  if(audio.paused) { audio.play().catch(()=>{}); setPlaying(currentId,true); }
+  else             { audio.pause(); setPlaying(currentId,false); }
+});
+
+document.getElementById('p-prev').addEventListener('click', () => {
+  if(!currentId) return;
+  const idx = ALL_TRACKS.indexOf(currentId);
+  if(audio.currentTime > 3) { audio.currentTime=0; return; }
+  if(idx > 0) playTrack(ALL_TRACKS[idx-1]);
+});
+
+document.getElementById('p-next').addEventListener('click', () => {
+  if(!currentId) return;
+  const idx = ALL_TRACKS.indexOf(currentId);
+  if(idx < ALL_TRACKS.length-1) playTrack(ALL_TRACKS[idx+1]);
+});
+
+document.getElementById('p-bar').addEventListener('click', e => {
+  if(!audio.duration) return;
+  const r = e.currentTarget.getBoundingClientRect();
+  audio.currentTime = ((e.clientX-r.left)/r.width)*audio.duration;
+});
+
+document.getElementById('p-vol').addEventListener('input', e => {
+  audio.volume = e.target.value;
+});
+
+document.getElementById('p-close').addEventListener('click', () => {
+  audio.pause();
+  player.classList.remove('visible');
+  setTimeout(()=>player.style.display='none',350);
+  setPlaying(currentId,false);
+  currentId=null;
+});
+
+// Nav scroll
+const nav = document.getElementById('topnav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 60);
+});
+</script>
+
+<script>
+(function() {
+  fetch('https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/latest.json?cb=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      if (data.title && data.audio) {
+        TRACKS['latest'] = { title: data.title, album: data.album || 'Avery Ivey', src: data.audio };
+      }
+    })
+    .catch(() => {});
+})();
+</script>
+</body>
+</html>
