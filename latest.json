@@ -1,6 +1,10 @@
 {
-  "title": "Tomorrow Never Comes",
-  "album": "Somewhere in the Middle",
-  "image": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/Tomorrow%20Never%20Comes%20-%20Album%20Cover.png",
-  "audio": "https://www.dropbox.com/scl/fi/7bdpevq44m491ygp0gk5i/Tomorrow-Never-Comes-Mastered-MP3.mp3?rlkey=2qx7l8yjjnwb2wyiaptkpryau&raw=1"
+  "title": "Wildflower",
+  "artist": "Avery Ivey",
+  "album": "A Soft Place to Fall...",
+  "type": "Latest Single",
+  "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-wildflower-cover.png",
+  "image": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-wildflower-cover.png",
+  "audio": "https://www.dropbox.com/scl/fi/4cv8cbapu5lsqirgy4qen/Avery-Ivey-Wildflower-Mastered-MP3.mp3?rlkey=wskilk8augraewdddd7p9hhby&raw=1",
+  "audioSrc": "https://www.dropbox.com/scl/fi/4cv8cbapu5lsqirgy4qen/Avery-Ivey-Wildflower-Mastered-MP3.mp3?rlkey=wskilk8augraewdddd7p9hhby&raw=1"
 }
