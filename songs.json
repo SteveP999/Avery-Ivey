@@ -36,7 +36,12 @@
     "isLatest": false,
     "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-wildflower-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/4cv8cbapu5lsqirgy4qen/Avery-Ivey-Wildflower-Mastered-MP3.mp3?rlkey=wskilk8augraewdddd7p9hhby&raw=1",
-    "videos": []
+    "videos": [
+      {
+        "title": "Official Video",
+        "youtube": "https://youtu.be/Q9NzKjGDa5E"
+      }
+    ]
   },
   {
     "id": "dreams_i_packed_away_sptf",
@@ -556,11 +561,6 @@
     "isLatest": true,
     "cover": "images/covers/avery-ivey-album-somewhere-in-the-middle/avery-ivey-tomorrow-never-comes-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/7bdpevq44m491ygp0gk5i/avery-ivey-tomorrow-never-comes-mp3.mp3?rlkey=2qx7l8yjjnwb2wyiaptkpryau&raw=1",
-    "videos": [
-      {
-        "title": "Official Video",
-        "youtube": "https://youtu.be/Q9NzKjGDa5E"
-      }
-    ]
+    "videos": []
   }
 ]
