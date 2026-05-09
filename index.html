@@ -164,7 +164,7 @@ footer{background:var(--black);border-top:1px solid var(--rose-glow);padding:4re
   </ul>
 </nav>
 <section class="hero">
-  <div class="hero-bg" style="background-image:url('https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-01.png');"></div>
+  <div class="hero-bg" style="background-image:url('images/artist/avery-photo-01.png');"></div>
   <div class="hero-vignette"></div>
   <div class="hero-glow"></div>
   <div class="hero-content">
@@ -227,14 +227,14 @@ footer{background:var(--black);border-top:1px solid var(--rose-glow);padding:4re
     <div class="rose-rule"></div>
   </div>
   <div class="photo-masonry">
-    <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-02.png" alt="Avery Ivey">
-    <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-03.png" alt="Avery Ivey">
-    <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-04.png" alt="Avery Ivey">
-    <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-05.png" alt="Avery Ivey">
-    <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-06.png" alt="Avery Ivey">
-    <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-07.png" alt="Avery Ivey">
-    <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-08.png" alt="Avery Ivey">
-    <img src="https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/avery-photo-09.png" alt="Avery Ivey">
+    <img src="images/artist/avery-photo-02.png" alt="Avery Ivey">
+    <img src="images/artist/avery-photo-03.png" alt="Avery Ivey">
+    <img src="images/artist/avery-photo-04.png" alt="Avery Ivey">
+    <img src="images/artist/avery-photo-05.png" alt="Avery Ivey">
+    <img src="images/artist/avery-photo-06.png" alt="Avery Ivey">
+    <img src="images/artist/avery-photo-07.png" alt="Avery Ivey">
+    <img src="images/artist/avery-photo-08.png" alt="Avery Ivey">
+    <img src="images/artist/avery-photo-09.png" alt="Avery Ivey">
   </div>
 </section>
 <footer>
@@ -272,9 +272,8 @@ footer{background:var(--black);border-top:1px solid var(--rose-glow);padding:4re
   </div>
 </div>
 <script>
-const ARTIST='Avery Ivey',REPO='Avery-Ivey';
-const BASE=`https://raw.githubusercontent.com/SteveP999/${REPO}/main`;
-const SONGS_URL=`${BASE}/songs.json`,LATEST_URL=`${BASE}/latest.json`;
+const ARTIST='Avery Ivey';
+const SONGS_URL='songs.json',LATEST_URL='latest.json';
 let SONGS=[],ORDER=[],cur=null;
 const audio=document.getElementById('audio'),player=document.getElementById('player'),pThumb=document.getElementById('p-thumb');
 function fmt(s){if(!isFinite(s)||isNaN(s))return'0:00';const m=Math.floor(s/60),sec=Math.floor(s%60);return m+':'+(sec<10?'0':'')+sec;}
