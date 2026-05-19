@@ -1,5 +1,4 @@
 @echo off
-git add .
-git commit -m "Update Avery Ivey site"
-git push
-pause
+cd /d "%~dp0"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0update.ps1"
+exit /b %ERRORLEVEL%

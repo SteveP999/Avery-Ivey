@@ -1,11 +1,11 @@
 {
-  "title": "Tomorrow Never Comes",
+  "title": "A Soft Place to Fall",
   "artist": "Avery Ivey",
-  "album": "Somewhere in the Middle",
+  "album": "A Soft Place to Fall...",
   "type": "Latest Single",
-  "cover": "images/covers/avery-ivey-album-somewhere-in-the-middle/avery-ivey-tomorrow-never-comes-cover.png",
-  "image": "images/covers/avery-ivey-album-somewhere-in-the-middle/avery-ivey-tomorrow-never-comes-cover.png",
-  "audio": "https://www.dropbox.com/scl/fi/7bdpevq44m491ygp0gk5i/avery-ivey-tomorrow-never-comes-mp3.mp3?rlkey=2qx7l8yjjnwb2wyiaptkpryau&raw=1",
-  "audioSrc": "https://www.dropbox.com/scl/fi/7bdpevq44m491ygp0gk5i/avery-ivey-tomorrow-never-comes-mp3.mp3?rlkey=2qx7l8yjjnwb2wyiaptkpryau&raw=1",
+  "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-a-soft-place-to-fall-SONG-cover.png",
+  "image": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-a-soft-place-to-fall-SONG-cover.png",
+  "audio": "https://www.dropbox.com/scl/fi/e8050ni9uh9of4b5cax4d/Avery-Ivey-A-Soft-Place-to-Fall-Mastered-v2-MP3.mp3?rlkey=amnqgpp0eqzx9uwo1eaio7a8p&raw=1",
+  "audioSrc": "https://www.dropbox.com/scl/fi/e8050ni9uh9of4b5cax4d/Avery-Ivey-A-Soft-Place-to-Fall-Mastered-v2-MP3.mp3?rlkey=amnqgpp0eqzx9uwo1eaio7a8p&raw=1",
   "videos": []
 }
