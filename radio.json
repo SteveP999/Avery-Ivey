@@ -32,7 +32,13 @@
       "album": "A Soft Place to Fall...",
       "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-wildflower-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/4cv8cbapu5lsqirgy4qen/Avery-Ivey-Wildflower-Mastered-MP3.mp3?rlkey=wskilk8augraewdddd7p9hhby&raw=1",
-      "videos": []
+      "videos": [
+        {
+          "title": "Wildflower",
+          "youtube": "https://youtu.be/Q9NzKjGDa5E",
+          "order": 2
+        }
+      ]
     },
     {
       "title": "Dreams I Packed Away",
