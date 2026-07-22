@@ -13,13 +13,7 @@
     "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-back-to-chapter-one-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/jk6614ondo7f9wwziqmf0/Back-to-Chapter-One-Mastered-MP3.mp3?rlkey=zqopgnh98kuqwpuc6flntzf2z&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/jk6614ondo7f9wwziqmf0/Back-to-Chapter-One-Mastered-MP3.mp3?rlkey=zqopgnh98kuqwpuc6flntzf2z&raw=1",
-    "videos": [
-      {
-        "title": "Official Lyric Video",
-        "youtube": "https://youtu.be/ngkxU-BjJIM",
-        "order": 1
-      }
-    ],
+    "videos": [],
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
