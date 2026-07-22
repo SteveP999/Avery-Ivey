@@ -16,7 +16,13 @@
       "album": "A Soft Place to Fall...",
       "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-back-to-chapter-one-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/jk6614ondo7f9wwziqmf0/Back-to-Chapter-One-Mastered-MP3.mp3?rlkey=zqopgnh98kuqwpuc6flntzf2z&raw=1",
-      "videos": []
+      "videos": [
+        {
+          "title": "Official Lyric Video",
+          "youtube": "https://youtu.be/ngkxU-BjJIM",
+          "order": 1
+        }
+      ]
     },
     {
       "title": "Sunday Morning Coffee",
@@ -70,7 +76,23 @@
       "album": "A Soft Place to Fall...",
       "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-backroads-after-rain-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/inkygtk375ok8gflb4fsr/Backroads-After-Rain-Mastered-MP3.mp3?rlkey=2w7ub4g23co3z1a125ghx5pzh&raw=1",
-      "videos": []
+      "videos": [
+        {
+          "title": "Official Lyric Video",
+          "youtube": "https://youtu.be/sF9HRv7ELZw",
+          "order": 1
+        },
+        {
+          "title": "Official Lyric Video",
+          "youtube": "https://youtu.be/sF9HRv7ELZw",
+          "order": 2
+        },
+        {
+          "title": "Official Lyric Video",
+          "youtube": "https://youtu.be/sF9HRv7ELZw",
+          "order": 3
+        }
+      ]
     },
     {
       "title": "Text from God",
@@ -78,7 +100,13 @@
       "album": "A Soft Place to Fall...",
       "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-text-from-god-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/rbq49kx031ncycvcr12hh/Avery-Ivey-Text-from-God-Master-v14.mp3?rlkey=je3m4idfyavkobyfqdr3jkfsp&raw=1",
-      "videos": []
+      "videos": [
+        {
+          "title": "Official Video",
+          "youtube": "https://youtu.be/bTMwaILyoIE",
+          "order": 1
+        }
+      ]
     },
     {
       "title": "Lookin' Okay",
@@ -99,6 +127,16 @@
           "title": "Two Cups",
           "youtube": "https://youtu.be/KH9xmVXmP8A",
           "order": 1
+        },
+        {
+          "title": "Official Lyric Video",
+          "youtube": "https://youtu.be/KH9xmVXmP8A",
+          "order": 2
+        },
+        {
+          "title": "Official Lyric Video",
+          "youtube": "https://youtu.be/KH9xmVXmP8A",
+          "order": 3
         }
       ]
     },

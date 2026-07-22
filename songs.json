@@ -13,11 +13,18 @@
     "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-back-to-chapter-one-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/jk6614ondo7f9wwziqmf0/Back-to-Chapter-One-Mastered-MP3.mp3?rlkey=zqopgnh98kuqwpuc6flntzf2z&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/jk6614ondo7f9wwziqmf0/Back-to-Chapter-One-Mastered-MP3.mp3?rlkey=zqopgnh98kuqwpuc6flntzf2z&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "title": "Official Lyric Video",
+        "youtube": "https://youtu.be/ngkxU-BjJIM",
+        "order": 1
+      }
+    ],
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "sunday_morning_coffee",
@@ -37,7 +44,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "wildflower_sptf",
@@ -63,7 +71,12 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {
+      "spotify": "https://open.spotify.com/album/2YljKl4iBU5G29NM7Nx4bO?si=I4Z9mHBfRyeav6lNUz1d6w",
+      "apple": "https://music.apple.com/us/song/wildflower/1885506193",
+      "youtubeMusic": "https://music.youtube.com/watch?v=udQ9p6G2SEA&si=YDQADXCqTqjmZe-ihttps://music.youtube.com/watch?v=udQ9p6G2SEA&si=YDQADXCqTqjmZe-i"
+    }
   },
   {
     "id": "dreams_i_packed_away_sptf",
@@ -83,7 +96,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "always_the_almost_country",
@@ -103,7 +117,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "the_long_way_home",
@@ -123,7 +138,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "backroads_after_rain",
@@ -139,11 +155,32 @@
     "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-backroads-after-rain-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/inkygtk375ok8gflb4fsr/Backroads-After-Rain-Mastered-MP3.mp3?rlkey=2w7ub4g23co3z1a125ghx5pzh&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/inkygtk375ok8gflb4fsr/Backroads-After-Rain-Mastered-MP3.mp3?rlkey=2w7ub4g23co3z1a125ghx5pzh&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "title": "Official Lyric Video",
+        "youtube": "https://youtu.be/sF9HRv7ELZw",
+        "order": 1
+      },
+      {
+        "title": "Official Lyric Video",
+        "youtube": "https://youtu.be/sF9HRv7ELZw",
+        "order": 2
+      },
+      {
+        "title": "Official Lyric Video",
+        "youtube": "https://youtu.be/sF9HRv7ELZw",
+        "order": 3
+      }
+    ],
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {
+      "spotify": "https://open.spotify.com/track/4npxbl5nylRetzgMj1ao9z?si=08ac6ff36e2640a7",
+      "apple": "https://music.apple.com/us/song/backroads-after-rain/6789603239",
+      "youtubeMusic": "https://music.youtube.com/watch?v=xJAh6vsCoRk&si=tmj1-f9kE3DlQJ64"
+    }
   },
   {
     "id": "text_from_god",
@@ -159,11 +196,22 @@
     "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-text-from-god-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/rbq49kx031ncycvcr12hh/Avery-Ivey-Text-from-God-Master-v14.mp3?rlkey=je3m4idfyavkobyfqdr3jkfsp&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/rbq49kx031ncycvcr12hh/Avery-Ivey-Text-from-God-Master-v14.mp3?rlkey=je3m4idfyavkobyfqdr3jkfsp&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "title": "Official Video",
+        "youtube": "https://youtu.be/bTMwaILyoIE",
+        "order": 1
+      }
+    ],
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {
+      "spotify": "https://open.spotify.com/track/79PYjkCYxFmQGpTlsWtc9O?si=f3f27ef5994845cf",
+      "apple": "https://music.apple.com/us/song/text-from-god/6789190296",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mEA0gT8GNcu9ukXmd6TX-jjWtShs-9c30&si=qBHslM6M_Qu__47o"
+    }
   },
   {
     "id": "lookin_okay_country",
@@ -183,7 +231,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "two_cups",
@@ -204,12 +253,27 @@
         "title": "Two Cups",
         "youtube": "https://youtu.be/KH9xmVXmP8A",
         "order": 1
+      },
+      {
+        "title": "Official Lyric Video",
+        "youtube": "https://youtu.be/KH9xmVXmP8A",
+        "order": 2
+      },
+      {
+        "title": "Official Lyric Video",
+        "youtube": "https://youtu.be/KH9xmVXmP8A",
+        "order": 3
       }
     ],
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {
+      "spotify": "https://open.spotify.com/album/156Zv94Kimj7WfRzAa4unU?si=gz62KjafRRaoDXjObX8q_Q",
+      "apple": "https://music.apple.com/us/album/two-cups-single/1875905031",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nmhRnDC0c7o03m_XtmNHQBmnJ2-0YrksY&si=jqpPbOKXLGlbq-aR"
+    }
   },
   {
     "id": "i_still_save_it",
@@ -229,7 +293,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "a_soft_place_to_fall",
@@ -249,7 +314,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "burn_it_down",
@@ -269,7 +335,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "wildflower_wf",
@@ -289,7 +356,8 @@
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "tonight_it_belongs_to_me",
@@ -309,7 +377,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "dreams_i_packed_away_wf",
@@ -329,7 +398,8 @@
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "brand_new_me",
@@ -349,7 +419,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lookin_ok_wf",
@@ -369,7 +440,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "almost_loved_you",
@@ -389,7 +461,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "loud_enough",
@@ -409,7 +482,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "a_soft_place_to_fall_wf",
@@ -429,7 +503,8 @@
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "the_long_way_down_wf",
@@ -449,7 +524,8 @@
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "somewhere_in_the_middle_wf",
@@ -469,7 +545,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "wildflower_acoustic",
@@ -489,7 +566,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "hard_truths_wf",
@@ -509,6 +587,7 @@
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   }
 ]
