@@ -357,7 +357,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "https://open.spotify.com/track/2VzFBNBC7YPZTSsdoboeuh?si=cd6724a25e554788",
+      "apple": "https://music.apple.com/us/song/wildflower/1885506193",
+      "youtubeMusic": "https://music.youtube.com/watch?v=udQ9p6G2SEA&si=B9TYF9Is8oT3dVvx"
+    }
   },
   {
     "id": "tonight_it_belongs_to_me",
