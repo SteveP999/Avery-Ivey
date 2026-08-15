@@ -122,7 +122,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "https://open.spotify.com/album/3TYBrcHFje5Ut5aAfOJxay?si=Ds7WJ8_KScWVeGhQeCyFbw",
+      "apple": "https://music.apple.com/us/song/always-the-almost/6789602960",
+      "youtubeMusic": "https://music.apple.com/us/song/always-the-almost/6789602960"
+    }
   },
   {
     "id": "the_long_way_home",
