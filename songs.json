@@ -601,5 +601,26 @@
     "explicit": false,
     "tags": [],
     "streaming": {}
+  },
+  {
+    "id": "avery-ivey-somewhere-in-the-middle",
+    "num": "26",
+    "title": "Somewhere In the Middle",
+    "artist": "Avery Ivey",
+    "album": "Somewhere in the Middle",
+    "trackNumber": 26,
+    "albumOrder": 26,
+    "albumCover": "images/covers/avery-ivey-somewhere-in-the-middle-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/avery-ivey-somewhere-in-the-middle-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/c97rslzkpi7d0v225ku57/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-mp3.mp3?rlkey=hwia5ksjrynhcxlx8fxucqnub&st=9cih09mq&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/c97rslzkpi7d0v225ku57/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-mp3.mp3?rlkey=hwia5ksjrynhcxlx8fxucqnub&st=9cih09mq&raw=1",
+    "videos": [],
+    "includeOnRadio": true,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
