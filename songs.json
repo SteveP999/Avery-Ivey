@@ -18,11 +18,7 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "https://open.spotify.com/album/3TYBrcHFje5Ut5aAfOJxay?si=Ds7WJ8_KScWVeGhQeCyFbw",
-      "apple": "https://music.apple.com/us/album/always-the-almost-single/6789602739",
-      "youtubeMusic": "https://music.youtube.com/watch?v=roAB02u5N1M&si=ioSDA7xkijq3Rig1"
-    }
+    "streaming": {}
   },
   {
     "id": "sunday_morning_coffee",
@@ -70,11 +66,7 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "https://open.spotify.com/album/2YljKl4iBU5G29NM7Nx4bO?si=I4Z9mHBfRyeav6lNUz1d6w",
-      "apple": "https://music.apple.com/us/song/wildflower/1885506193",
-      "youtubeMusic": "https://music.youtube.com/watch?v=udQ9p6G2SEA&si=YDQADXCqTqjmZe-ihttps://music.youtube.com/watch?v=udQ9p6G2SEA&si=YDQADXCqTqjmZe-i"
-    }
+    "streaming": {}
   },
   {
     "id": "dreams_i_packed_away_sptf",
@@ -108,25 +100,15 @@
     "albumCover": "images/covers/avery-ivey-a-soft-place-to-fall-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
-    "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-always-the-almost-cover-country.png",
-    "audio": "https://www.dropbox.com/scl/fi/92d774e4eruucpvtfagtb/avery-ivey-always-the-almost-mp3-v6.mp3?rlkey=pkpwqxlpjzcvpctqwa3gtgxfo&raw=1",
-    "audioSrc": "https://www.dropbox.com/scl/fi/92d774e4eruucpvtfagtb/avery-ivey-always-the-almost-mp3-v6.mp3?rlkey=pkpwqxlpjzcvpctqwa3gtgxfo&raw=1",
-    "videos": [
-      {
-        "title": "Official Music Video",
-        "youtube": "https://youtu.be/roAB02u5N1M?si=MCrFVyVUzN8tahac",
-        "order": 1
-      }
-    ],
+    "cover": "images/covers/avery-ivey-always-the-almost-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/wucmadfxsp7c4i46qp767/Avery-Ivey-Always-the-Almost-Country-Unreleased-MP3.mp3?rlkey=nwwa3bhbvhx2exwu5dzj0n9rd&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/wucmadfxsp7c4i46qp767/Avery-Ivey-Always-the-Almost-Country-Unreleased-MP3.mp3?rlkey=nwwa3bhbvhx2exwu5dzj0n9rd&raw=1",
+    "videos": [],
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "https://open.spotify.com/album/3TYBrcHFje5Ut5aAfOJxay?si=Ds7WJ8_KScWVeGhQeCyFbw",
-      "apple": "https://music.apple.com/us/song/always-the-almost/6789602960",
-      "youtubeMusic": "https://music.apple.com/us/song/always-the-almost/6789602960"
-    }
+    "streaming": {}
   },
   {
     "id": "the_long_way_home",
@@ -163,32 +145,12 @@
     "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-backroads-after-rain-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/inkygtk375ok8gflb4fsr/Backroads-After-Rain-Mastered-MP3.mp3?rlkey=2w7ub4g23co3z1a125ghx5pzh&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/inkygtk375ok8gflb4fsr/Backroads-After-Rain-Mastered-MP3.mp3?rlkey=2w7ub4g23co3z1a125ghx5pzh&raw=1",
-    "videos": [
-      {
-        "title": "Official Lyric Video",
-        "youtube": "https://youtu.be/sF9HRv7ELZw",
-        "order": 1
-      },
-      {
-        "title": "Official Lyric Video",
-        "youtube": "https://youtu.be/sF9HRv7ELZw",
-        "order": 2
-      },
-      {
-        "title": "Official Lyric Video",
-        "youtube": "https://youtu.be/sF9HRv7ELZw",
-        "order": 3
-      }
-    ],
+    "videos": [],
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "https://open.spotify.com/track/4npxbl5nylRetzgMj1ao9z?si=08ac6ff36e2640a7",
-      "apple": "https://music.apple.com/us/song/backroads-after-rain/6789603239",
-      "youtubeMusic": "https://music.youtube.com/watch?v=xJAh6vsCoRk&si=tmj1-f9kE3DlQJ64"
-    }
+    "streaming": {}
   },
   {
     "id": "text_from_god",
@@ -204,22 +166,12 @@
     "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-text-from-god-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/rbq49kx031ncycvcr12hh/Avery-Ivey-Text-from-God-Master-v14.mp3?rlkey=je3m4idfyavkobyfqdr3jkfsp&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/rbq49kx031ncycvcr12hh/Avery-Ivey-Text-from-God-Master-v14.mp3?rlkey=je3m4idfyavkobyfqdr3jkfsp&raw=1",
-    "videos": [
-      {
-        "title": "Official Video",
-        "youtube": "https://youtu.be/bTMwaILyoIE",
-        "order": 1
-      }
-    ],
+    "videos": [],
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "https://open.spotify.com/track/79PYjkCYxFmQGpTlsWtc9O?si=f3f27ef5994845cf",
-      "apple": "https://music.apple.com/us/song/text-from-god/6789190296",
-      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mEA0gT8GNcu9ukXmd6TX-jjWtShs-9c30&si=qBHslM6M_Qu__47o"
-    }
+    "streaming": {}
   },
   {
     "id": "lookin_okay_country",
@@ -232,7 +184,7 @@
     "albumCover": "images/covers/avery-ivey-a-soft-place-to-fall-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
-    "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-lookin-okay-cover-country.png",
+    "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-lookin-okay-cover(country).png",
     "audio": "https://www.dropbox.com/scl/fi/frtp29pivlcuyje8qjbyc/Lookin-OK-Soft-Place-to-Fall-Version-Mastered-MP3.mp3?rlkey=9m0ajdo031flid3qc217bj9s4&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/frtp29pivlcuyje8qjbyc/Lookin-OK-Soft-Place-to-Fall-Version-Mastered-MP3.mp3?rlkey=9m0ajdo031flid3qc217bj9s4&raw=1",
     "videos": [],
@@ -261,27 +213,13 @@
         "title": "Two Cups",
         "youtube": "https://youtu.be/KH9xmVXmP8A",
         "order": 1
-      },
-      {
-        "title": "Official Lyric Video",
-        "youtube": "https://youtu.be/KH9xmVXmP8A",
-        "order": 2
-      },
-      {
-        "title": "Official Lyric Video",
-        "youtube": "https://youtu.be/KH9xmVXmP8A",
-        "order": 3
       }
     ],
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "https://open.spotify.com/album/156Zv94Kimj7WfRzAa4unU?si=gz62KjafRRaoDXjObX8q_Q",
-      "apple": "https://music.apple.com/us/album/two-cups-single/1875905031",
-      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nmhRnDC0c7o03m_XtmNHQBmnJ2-0YrksY&si=jqpPbOKXLGlbq-aR"
-    }
+    "streaming": {}
   },
   {
     "id": "i_still_save_it",
@@ -347,6 +285,27 @@
     "streaming": {}
   },
   {
+    "id": "avery-ivey-somewhere-in-the-middle",
+    "num": "14",
+    "title": "Somewhere In the Middle",
+    "artist": "Avery Ivey",
+    "album": "Somewhere in the Middle",
+    "trackNumber": 14,
+    "albumOrder": 14,
+    "albumCover": "images/covers/avery-ivey-somewhere-in-the-middle-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/avery-ivey-somewhere-in-the-middle-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/c97rslzkpi7d0v225ku57/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-mp3.mp3?rlkey=hwia5ksjrynhcxlx8fxucqnub&st=9cih09mq&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/c97rslzkpi7d0v225ku57/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-mp3.mp3?rlkey=hwia5ksjrynhcxlx8fxucqnub&st=9cih09mq&raw=1",
+    "videos": [],
+    "includeOnRadio": true,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
+  },
+  {
     "id": "wildflower_wf",
     "num": "01",
     "title": "Wildflower",
@@ -365,11 +324,7 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "https://open.spotify.com/track/2VzFBNBC7YPZTSsdoboeuh?si=cd6724a25e554788",
-      "apple": "https://music.apple.com/us/song/wildflower/1885506193",
-      "youtubeMusic": "https://music.youtube.com/watch?v=udQ9p6G2SEA&si=B9TYF9Is8oT3dVvx"
-    }
+    "streaming": {}
   },
   {
     "id": "tonight_it_belongs_to_me",
@@ -519,27 +474,6 @@
     "streaming": {}
   },
   {
-    "id": "the_long_way_down_wf",
-    "num": "09",
-    "title": "The Long Way Down",
-    "artist": "Avery Ivey",
-    "album": "Wildflower Soundtrack",
-    "trackNumber": 9,
-    "albumOrder": 9,
-    "albumCover": "images/covers/avery-ivey-wildflower-soundtrack-ALBUM-cover.png",
-    "type": "single",
-    "isLatest": false,
-    "cover": "images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-the-long-way-down.cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/z5ewk3co7s3h67zyjymlw/The-Long-Way-Down-Mastered-MP3.mp3?rlkey=wfwozvsyaap4bz07t03zyj7qn&raw=1",
-    "audioSrc": "https://www.dropbox.com/scl/fi/z5ewk3co7s3h67zyjymlw/The-Long-Way-Down-Mastered-MP3.mp3?rlkey=wfwozvsyaap4bz07t03zyj7qn&raw=1",
-    "videos": [],
-    "includeOnRadio": false,
-    "includeOnHomepage": false,
-    "explicit": false,
-    "tags": [],
-    "streaming": {}
-  },
-  {
     "id": "somewhere_in_the_middle_wf",
     "num": "10",
     "title": "Somewhere in the Middle",
@@ -549,7 +483,7 @@
     "albumOrder": 10,
     "albumCover": "images/covers/avery-ivey-wildflower-soundtrack-ALBUM-cover.png",
     "type": "single",
-    "isLatest": true,
+    "isLatest": false,
     "cover": "images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/4o4bad3jn16xbga2q3gxi/Somewhere-in-the-Middle-Mastered-MP3.mp3?rlkey=2jj4fqzl3zjzdsof51n9g7ron&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/4o4bad3jn16xbga2q3gxi/Somewhere-in-the-Middle-Mastered-MP3.mp3?rlkey=2jj4fqzl3zjzdsof51n9g7ron&raw=1",
@@ -577,48 +511,6 @@
     "videos": [],
     "includeOnRadio": true,
     "includeOnHomepage": false,
-    "explicit": false,
-    "tags": [],
-    "streaming": {}
-  },
-  {
-    "id": "hard_truths_wf",
-    "num": "12",
-    "title": "Hard Truths",
-    "artist": "Avery Ivey",
-    "album": "Wildflower Soundtrack",
-    "trackNumber": 12,
-    "albumOrder": 12,
-    "albumCover": "images/covers/avery-ivey-wildflower-soundtrack-ALBUM-cover.png",
-    "type": "single",
-    "isLatest": false,
-    "cover": "images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-hard-truths-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/qfndn6l8n69hw94hg28sg/Avery-Ivey-Hard-Truths-Mastered-MP3.mp3?rlkey=j0thery46ahsz1wzv2v64su4p&raw=1",
-    "audioSrc": "https://www.dropbox.com/scl/fi/qfndn6l8n69hw94hg28sg/Avery-Ivey-Hard-Truths-Mastered-MP3.mp3?rlkey=j0thery46ahsz1wzv2v64su4p&raw=1",
-    "videos": [],
-    "includeOnRadio": false,
-    "includeOnHomepage": false,
-    "explicit": false,
-    "tags": [],
-    "streaming": {}
-  },
-  {
-    "id": "avery-ivey-somewhere-in-the-middle",
-    "num": "26",
-    "title": "Somewhere In the Middle",
-    "artist": "Avery Ivey",
-    "album": "Somewhere in the Middle",
-    "trackNumber": 26,
-    "albumOrder": 26,
-    "albumCover": "images/covers/avery-ivey-somewhere-in-the-middle-ALBUM-cover.png",
-    "type": "single",
-    "isLatest": true,
-    "cover": "images/covers/avery-ivey-somewhere-in-the-middle-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/c97rslzkpi7d0v225ku57/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-mp3.mp3?rlkey=hwia5ksjrynhcxlx8fxucqnub&st=9cih09mq&raw=1",
-    "audioSrc": "https://www.dropbox.com/scl/fi/c97rslzkpi7d0v225ku57/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-mp3.mp3?rlkey=hwia5ksjrynhcxlx8fxucqnub&st=9cih09mq&raw=1",
-    "videos": [],
-    "includeOnRadio": true,
-    "includeOnHomepage": true,
     "explicit": false,
     "tags": [],
     "streaming": {}
