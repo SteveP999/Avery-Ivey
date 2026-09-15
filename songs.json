@@ -57,9 +57,9 @@
     "audioSrc": "https://www.dropbox.com/scl/fi/4cv8cbapu5lsqirgy4qen/Avery-Ivey-Wildflower-Mastered-MP3.mp3?rlkey=wskilk8augraewdddd7p9hhby&raw=1",
     "videos": [
       {
-        "title": "Wildflower",
         "youtube": "https://youtu.be/Q9NzKjGDa5E",
-        "order": 2
+        "title": "Official Video",
+        "order": 1
       }
     ],
     "includeOnRadio": true,
@@ -100,7 +100,7 @@
     "albumCover": "images/covers/avery-ivey-a-soft-place-to-fall-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
-    "cover": "images/covers/avery-ivey-always-the-almost-cover.png",
+    "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-always-the-almost-cover(country).png",
     "audio": "https://www.dropbox.com/scl/fi/wucmadfxsp7c4i46qp767/Avery-Ivey-Always-the-Almost-Country-Unreleased-MP3.mp3?rlkey=nwwa3bhbvhx2exwu5dzj0n9rd&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/wucmadfxsp7c4i46qp767/Avery-Ivey-Always-the-Almost-Country-Unreleased-MP3.mp3?rlkey=nwwa3bhbvhx2exwu5dzj0n9rd&raw=1",
     "videos": [],
@@ -171,7 +171,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "lookin_okay_country",
@@ -184,7 +188,7 @@
     "albumCover": "images/covers/avery-ivey-a-soft-place-to-fall-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
-    "cover": "images/covers/avery-ivey-lookin-okay-cover.png",
+    "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-lookin-okay-cover(country).png",
     "audio": "https://www.dropbox.com/scl/fi/frtp29pivlcuyje8qjbyc/Lookin-OK-Soft-Place-to-Fall-Version-Mastered-MP3.mp3?rlkey=9m0ajdo031flid3qc217bj9s4&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/frtp29pivlcuyje8qjbyc/Lookin-OK-Soft-Place-to-Fall-Version-Mastered-MP3.mp3?rlkey=9m0ajdo031flid3qc217bj9s4&raw=1",
     "videos": [],
@@ -210,8 +214,8 @@
     "audioSrc": "https://www.dropbox.com/scl/fi/b160abr2kgvhn0ngswohf/Avery-Ivey-Two-Cups-Released-MP3.mp3?rlkey=tvq4lcxyf91sqac05jtsebm65&raw=1",
     "videos": [
       {
-        "title": "Two Cups",
         "youtube": "https://youtu.be/KH9xmVXmP8A",
+        "title": "Official Video",
         "order": 1
       }
     ],
@@ -219,7 +223,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "i_still_save_it",
@@ -269,12 +277,12 @@
     "title": "Burn It Down",
     "artist": "Avery Ivey",
     "album": "Somewhere in the Middle",
-    "trackNumber": 13,
-    "albumOrder": 13,
+    "trackNumber": 2,
+    "albumOrder": 2,
     "albumCover": "images/covers/avery-ivey-somewhere-in-the-middle-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
-    "cover": "images/covers/avery-ivey-burn-it-down-cover.png",
+    "cover": "images/covers/avery-ivey-album-somewhere-in-the-middle/avery-ivey-burn-it-down-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/88z4a3jtfmx4c3f7rv5rr/Avery-Ivey-Burn-it-Down-Master-mp3-1.mp3?rlkey=ojbbd704yy2tvuk4cvd9lm3fp&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/88z4a3jtfmx4c3f7rv5rr/Avery-Ivey-Burn-it-Down-Master-mp3-1.mp3?rlkey=ojbbd704yy2tvuk4cvd9lm3fp&raw=1",
     "videos": [],
@@ -285,25 +293,29 @@
     "streaming": {}
   },
   {
-    "id": "avery-ivey-somewhere-in-the-middle",
+    "id": "somewhere_in_the_middle_wf",
     "num": "14",
-    "title": "Somewhere In the Middle",
+    "title": "Somewhere in the Middle",
     "artist": "Avery Ivey",
     "album": "Somewhere in the Middle",
-    "trackNumber": 14,
-    "albumOrder": 14,
-    "albumCover": "images/covers/avery-ivey-somewhere-in-the-middle-ALBUM-cover.png",
+    "trackNumber": 10,
+    "albumOrder": 10,
+    "albumCover": "images/covers/avery-ivey-wildflower-soundtrack-ALBUM-cover.png",
     "type": "single",
-    "isLatest": true,
-    "cover": "images/covers/avery-ivey-somewhere-in-the-middle-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/c97rslzkpi7d0v225ku57/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-mp3.mp3?rlkey=hwia5ksjrynhcxlx8fxucqnub&st=9cih09mq&raw=1",
-    "audioSrc": "https://www.dropbox.com/scl/fi/c97rslzkpi7d0v225ku57/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-mp3.mp3?rlkey=hwia5ksjrynhcxlx8fxucqnub&st=9cih09mq&raw=1",
+    "isLatest": false,
+    "cover": "images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/4o4bad3jn16xbga2q3gxi/Somewhere-in-the-Middle-Mastered-MP3.mp3?rlkey=2jj4fqzl3zjzdsof51n9g7ron&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/4o4bad3jn16xbga2q3gxi/Somewhere-in-the-Middle-Mastered-MP3.mp3?rlkey=2jj4fqzl3zjzdsof51n9g7ron&raw=1",
     "videos": [],
     "includeOnRadio": true,
-    "includeOnHomepage": true,
+    "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "wildflower_wf",
@@ -474,7 +486,7 @@
     "streaming": {}
   },
   {
-    "id": "somewhere_in_the_middle_wf",
+    "id": "avery-ivey-somewhere-in-the-middle",
     "num": "10",
     "title": "Somewhere in the Middle",
     "artist": "Avery Ivey",
@@ -483,12 +495,33 @@
     "albumOrder": 10,
     "albumCover": "images/covers/avery-ivey-wildflower-soundtrack-ALBUM-cover.png",
     "type": "single",
-    "isLatest": false,
+    "isLatest": true,
     "cover": "images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/4o4bad3jn16xbga2q3gxi/Somewhere-in-the-Middle-Mastered-MP3.mp3?rlkey=2jj4fqzl3zjzdsof51n9g7ron&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/4o4bad3jn16xbga2q3gxi/Somewhere-in-the-Middle-Mastered-MP3.mp3?rlkey=2jj4fqzl3zjzdsof51n9g7ron&raw=1",
     "videos": [],
     "includeOnRadio": true,
+    "includeOnHomepage": false,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
+  },
+  {
+    "id": "the_long_way_down_wf",
+    "num": "09",
+    "title": "The Long Way Down",
+    "artist": "Avery Ivey",
+    "album": "Wildflower Soundtrack",
+    "trackNumber": 10,
+    "albumOrder": 10,
+    "albumCover": "images/covers/avery-ivey-wildflower-soundtrack-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": false,
+    "cover": "images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-the-long-way-down.cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/z5ewk3co7s3h67zyjymlw/The-Long-Way-Down-Mastered-MP3.mp3?rlkey=wfwozvsyaap4bz07t03zyj7qn&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/z5ewk3co7s3h67zyjymlw/The-Long-Way-Down-Mastered-MP3.mp3?rlkey=wfwozvsyaap4bz07t03zyj7qn&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
@@ -510,6 +543,27 @@
     "audioSrc": "https://www.dropbox.com/scl/fi/zbwykbmgjzx1ickgj7o2w/Wildflower-Acoustic-Mastered-MP3.mp3?rlkey=mwmukd8atrltjf08c7g7qaee9&raw=1",
     "videos": [],
     "includeOnRadio": true,
+    "includeOnHomepage": false,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
+  },
+  {
+    "id": "hard_truths_wf",
+    "num": "12",
+    "title": "Hard Truths",
+    "artist": "Avery Ivey",
+    "album": "Wildflower Soundtrack",
+    "trackNumber": 16,
+    "albumOrder": 16,
+    "albumCover": "images/covers/avery-ivey-wildflower-soundtrack-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": false,
+    "cover": "images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-hard-truths-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/qfndn6l8n69hw94hg28sg/Avery-Ivey-Hard-Truths-Mastered-MP3.mp3?rlkey=j0thery46ahsz1wzv2v64su4p&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/qfndn6l8n69hw94hg28sg/Avery-Ivey-Hard-Truths-Mastered-MP3.mp3?rlkey=j0thery46ahsz1wzv2v64su4p&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],

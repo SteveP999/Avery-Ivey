@@ -2,11 +2,11 @@
   "artist": "Avery Ivey",
   "latestUrl": "latest.json",
   "featuredTrack": {
-    "title": "Somewhere In the Middle",
+    "title": "Somewhere in the Middle",
     "artist": "Avery Ivey",
-    "album": "Somewhere in the Middle",
-    "cover": "images/covers/avery-ivey-somewhere-in-the-middle-cover.png",
-    "audioSrc": "https://www.dropbox.com/scl/fi/c97rslzkpi7d0v225ku57/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-mp3.mp3?rlkey=hwia5ksjrynhcxlx8fxucqnub&st=9cih09mq&raw=1",
+    "album": "Wildflower Soundtrack",
+    "cover": "images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-cover.png",
+    "audioSrc": "https://www.dropbox.com/scl/fi/4o4bad3jn16xbga2q3gxi/Somewhere-in-the-Middle-Mastered-MP3.mp3?rlkey=2jj4fqzl3zjzdsof51n9g7ron&raw=1",
     "videos": []
   },
   "tracks": [
@@ -34,9 +34,9 @@
       "audioSrc": "https://www.dropbox.com/scl/fi/4cv8cbapu5lsqirgy4qen/Avery-Ivey-Wildflower-Mastered-MP3.mp3?rlkey=wskilk8augraewdddd7p9hhby&raw=1",
       "videos": [
         {
-          "title": "Wildflower",
           "youtube": "https://youtu.be/Q9NzKjGDa5E",
-          "order": 2
+          "title": "Official Video",
+          "order": 1
         }
       ]
     },
@@ -52,7 +52,7 @@
       "title": "Always the Almost",
       "artist": "Avery Ivey",
       "album": "A Soft Place to Fall...",
-      "cover": "images/covers/avery-ivey-always-the-almost-cover.png",
+      "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-always-the-almost-cover(country).png",
       "audioSrc": "https://www.dropbox.com/scl/fi/wucmadfxsp7c4i46qp767/Avery-Ivey-Always-the-Almost-Country-Unreleased-MP3.mp3?rlkey=nwwa3bhbvhx2exwu5dzj0n9rd&raw=1",
       "videos": []
     },
@@ -84,7 +84,7 @@
       "title": "Lookin' Okay",
       "artist": "Avery Ivey",
       "album": "A Soft Place to Fall...",
-      "cover": "images/covers/avery-ivey-lookin-okay-cover.png",
+      "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-lookin-okay-cover(country).png",
       "audioSrc": "https://www.dropbox.com/scl/fi/frtp29pivlcuyje8qjbyc/Lookin-OK-Soft-Place-to-Fall-Version-Mastered-MP3.mp3?rlkey=9m0ajdo031flid3qc217bj9s4&raw=1",
       "videos": []
     },
@@ -96,8 +96,8 @@
       "audioSrc": "https://www.dropbox.com/scl/fi/b160abr2kgvhn0ngswohf/Avery-Ivey-Two-Cups-Released-MP3.mp3?rlkey=tvq4lcxyf91sqac05jtsebm65&raw=1",
       "videos": [
         {
-          "title": "Two Cups",
           "youtube": "https://youtu.be/KH9xmVXmP8A",
+          "title": "Official Video",
           "order": 1
         }
       ]
@@ -122,16 +122,16 @@
       "title": "Burn It Down",
       "artist": "Avery Ivey",
       "album": "Somewhere in the Middle",
-      "cover": "images/covers/avery-ivey-burn-it-down-cover.png",
+      "cover": "images/covers/avery-ivey-album-somewhere-in-the-middle/avery-ivey-burn-it-down-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/88z4a3jtfmx4c3f7rv5rr/Avery-Ivey-Burn-it-Down-Master-mp3-1.mp3?rlkey=ojbbd704yy2tvuk4cvd9lm3fp&raw=1",
       "videos": []
     },
     {
-      "title": "Somewhere In the Middle",
+      "title": "Somewhere in the Middle",
       "artist": "Avery Ivey",
       "album": "Somewhere in the Middle",
-      "cover": "images/covers/avery-ivey-somewhere-in-the-middle-cover.png",
-      "audioSrc": "https://www.dropbox.com/scl/fi/c97rslzkpi7d0v225ku57/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-mp3.mp3?rlkey=hwia5ksjrynhcxlx8fxucqnub&st=9cih09mq&raw=1",
+      "cover": "images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-cover.png",
+      "audioSrc": "https://www.dropbox.com/scl/fi/4o4bad3jn16xbga2q3gxi/Somewhere-in-the-Middle-Mastered-MP3.mp3?rlkey=2jj4fqzl3zjzdsof51n9g7ron&raw=1",
       "videos": []
     },
     {
