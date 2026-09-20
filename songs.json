@@ -100,7 +100,7 @@
     "albumCover": "images/covers/avery-ivey-a-soft-place-to-fall-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
-    "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-always-the-almost-cover(country).png",
+    "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-always-the-almost-cover-country.png",
     "audio": "https://www.dropbox.com/scl/fi/wucmadfxsp7c4i46qp767/Avery-Ivey-Always-the-Almost-Country-Unreleased-MP3.mp3?rlkey=nwwa3bhbvhx2exwu5dzj0n9rd&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/wucmadfxsp7c4i46qp767/Avery-Ivey-Always-the-Almost-Country-Unreleased-MP3.mp3?rlkey=nwwa3bhbvhx2exwu5dzj0n9rd&raw=1",
     "videos": [],
@@ -188,7 +188,7 @@
     "albumCover": "images/covers/avery-ivey-a-soft-place-to-fall-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
-    "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-lookin-okay-cover(country).png",
+    "cover": "images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-lookin-okay-cover-country.png",
     "audio": "https://www.dropbox.com/scl/fi/frtp29pivlcuyje8qjbyc/Lookin-OK-Soft-Place-to-Fall-Version-Mastered-MP3.mp3?rlkey=9m0ajdo031flid3qc217bj9s4&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/frtp29pivlcuyje8qjbyc/Lookin-OK-Soft-Place-to-Fall-Version-Mastered-MP3.mp3?rlkey=9m0ajdo031flid3qc217bj9s4&raw=1",
     "videos": [],
@@ -525,7 +525,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "wildflower_acoustic",
@@ -567,6 +571,10 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   }
 ]
