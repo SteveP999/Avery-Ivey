@@ -272,8 +272,29 @@
     "streaming": {}
   },
   {
-    "id": "burn_it_down",
+    "id": "avery-ivey-i-freeze",
     "num": "13",
+    "title": "I Freeze",
+    "artist": "Avery Ivey",
+    "album": "Out of Focus",
+    "trackNumber": 1,
+    "albumOrder": 1,
+    "albumCover": "images/covers/avery-ivey-out-of-focus-album-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/avery-ivey-i-freeze-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/xu1c19dro1nbr7jd4yb0f/avery-ivey-i-freeze-MP3-mastered.mp3?rlkey=2t36vpwoowvr86q6l3e48pbk0&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/xu1c19dro1nbr7jd4yb0f/avery-ivey-i-freeze-MP3-mastered.mp3?rlkey=2t36vpwoowvr86q6l3e48pbk0&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
+  },
+  {
+    "id": "burn_it_down",
+    "num": "14",
     "title": "Burn It Down",
     "artist": "Avery Ivey",
     "album": "Somewhere in the Middle",
@@ -294,7 +315,7 @@
   },
   {
     "id": "somewhere_in_the_middle_wf",
-    "num": "14",
+    "num": "15",
     "title": "Somewhere in the Middle",
     "artist": "Avery Ivey",
     "album": "Somewhere in the Middle",
@@ -576,26 +597,5 @@
       "apple": "",
       "youtubeMusic": ""
     }
-  },
-  {
-    "id": "avery-ivey-i-freeze",
-    "num": "01",
-    "title": "I Freeze",
-    "artist": "Avery Ivey",
-    "album": "Out of Focus",
-    "trackNumber": 1,
-    "albumOrder": 1,
-    "albumCover": "images/covers/avery-ivey-out-of-focus-album-cover.png",
-    "type": "single",
-    "isLatest": true,
-    "cover": "images/covers/avery-ivey-i-freeze-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/xu1c19dro1nbr7jd4yb0f/avery-ivey-i-freeze-MP3-mastered.mp3?rlkey=2t36vpwoowvr86q6l3e48pbk0&raw=1",
-    "audioSrc": "https://www.dropbox.com/scl/fi/xu1c19dro1nbr7jd4yb0f/avery-ivey-i-freeze-MP3-mastered.mp3?rlkey=2t36vpwoowvr86q6l3e48pbk0&raw=1",
-    "videos": [],
-    "includeOnRadio": false,
-    "includeOnHomepage": true,
-    "explicit": false,
-    "tags": [],
-    "streaming": {}
   }
 ]
